@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOUR SITE</title>
+
+<!-- font awesome cdn link-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+    
+
+<a href="#" class="logo"><span>O</span>laTours</a>
+
+<div class="navbar">
+<nav>
+    <ul>
+    <li><a href="#">home</a></li>
+    <li><a href="#">book</a></li>
+    <li><a href="#">gallery</a></li>
+    <li><a href="#">packages</a></li>
+    <li><a href="#">services</a></li>
+    <li><a href="#">contact</a></li>
+    </ul>
+    </nav>
+</div>
+<div class="icons">
+    <i class="fas fa-search" id="search-btn"></i>
+    <i class="fas fa-user" id="login-btn"></i>
+    <i id="menu-bar" class="fas fa-bars"></i>
+
+
+    
+</div>
+ 
+<form action="" class="search-bar-container">
+    <input type="search" id="search-bar" placeholder="search here...">
+    <label for="search-bar" class="fas fa-search"></label>
+</form>
+</nav>
+    </header>
+
+    <div class="login-form-container">
+        <i class="fas fa-time" id="form-close"></i>
+    <form action="">
+    <h3>Login</h3>
+    <input type="email" class="box" placeholder="enter your email">
+    <input type="password" class="box" placeholder="enter your password">
+    <input type="submit" value="login now" class= "btn">
+    <input type="checkbox" id="remember">
+    <label for="remember">Remember me</label>
+    <p>Forget Password? <a href="#">Click Here</a></p>
+    <p>Don't have an account? <a href="#">Register now</a></p>
+</form>
+    </div>
+
+<!-- HOME SECTION -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>Life is an Adventure!</h3>
+        <p>Discover Amazing places with us</p>
+        <a href="#" class="btn">Discover More</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="mixkit-waves-coming-to-the-beach-5016-medium"></span>
+        <span class="vid-btn" data-src="arch_-_30121 (540p).mp4"></span>
+        <span class="vid-btn" data-src="waterfall_-_63283 (1080p).mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="mixkit-waves-coming-to-the-beach-5016-medium.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+
+<!-- book section -->
+<section class="book" id="book">
+<h1 class="heading">
+    <span>b</span>
+    <span>o</span>
+    <span>o</span>
+    <span>k</span>
+    <span class="space"></span>
+    <span>n</span>
+    <span>o</span>
+    <span>w</span>
+</h1>
+
+<div class="row">
+<div class="image">
+    <img src="World-pana.png" alt="">
+</div>
+
+<form action="">
+<div class="inputBox">
+    <h3>Where to</h3>
+    <input type="text" placeholder="place name">
+</div>
+<div class="inputBox">
+    <h3>How many</h3>
+    <input type="number" placeholder="number of guests">
+</div>
+<div class="inputBox">
+    <h3>Arrivals</h3>
+    <input type="date" >
+</div>
+<div class="inputBox">
+    <h3>Leaving</h3>
+    <input type="date" >
+</div>
+<input type="submit" class="btn" value="book-now">
+</form>
+</div>
+</section>
+
+<!-- packages section -->
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+
+<div class="box-container">
+    <div class="box">
+        <img src="pexels-grafixartphoto-samir-belhamra-4254555.jpg" alt="">
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i>Greece</h3>
+<p>Explore the vast landscapes and beautiful scenery in Greece. Enjoy the amazing cuisines while at it!</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+<div class="price"> N300,000 <span>N380,000</span></div>
+<a href="#" class="btn">Book Now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="santorini-416135_1920.jpg" alt="">
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i>Santorini</h3>
+<p>The clear waters in Santorini will make you swoon</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+<div class="price"> N420,000 <span>N495,000</span></div>
+<a href="#" class="btn">Book Now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="pexels-maahid-photos-3881104.jpg" alt="">
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i>Doha</h3>
+<p>Visit religious sites</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+<div class="price"> N315,000 <span>N349,000</span></div>
+<a href="#" class="btn">Book Now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="pexels-abstract-vibe-786357.jpg" alt="">
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i>Maimi</h3>
+<p>Enjoy the sun and beautiful beaches in Miami</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+<div class="price"> 438,000 <span>500,000</span></div>
+<a href="#" class="btn">Book Now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="Complete-Guide-to-Bangkok-Thailand-6337.jpg" alt="">
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i>Thailand</h3>
+<p>Explore the culture in Thailand</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+<div class="price"> 520,000 <span>535,000</span></div>
+<a href="#" class="btn">Book Now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="pexels-symeon-ekizoglou-2880801.jpg" alt="">
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i>Australia</h3>
+<p>The amazing hike trails and rivers await your exploration</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+<div class="price"> 220,000 <span>290,000</span></div>
+<a href="#" class="btn">Book Now</a>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- services section -->
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Affordable Hotels</h3>
+                <p>To ensure a stress free trip, we assist with the most comfortable and affordable hotels</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Food and Drinks</h3>
+                <p>We offer the most amazing meals and exquisite drinks</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Safety Guide</h3>
+                <p>Be rest assured of your safety as you explore the city</p>
+            </div>
+            
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>Around the world</h3>
+                <p>We go anywhere you desire</p>
+            </div>
+
+        
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>Fastest Travel</h3>
+                <p>Set the date and time.. We never disappoint</p>
+            </div>
+
+            
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Adventure</h3>
+                <p>Adventure awaits!</p>
+            </div>
+        </div>
+    </section>
+
+<!-- gallery section -->
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+<div class="box-container">
+
+    <div class="box">
+        <img src="1.jpg" alt="">
+        <div class="content">
+            <h3>Explore new cities</h3>
+            <p>You cant run out of spots</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="2.jpg" alt="">
+        <div class="content">
+            <h3>Come Visit</h3>
+            <p>Sight-Seeing and Tours</p>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <div class="box">
+        <img src="3.jpg" alt="">
+        <div class="content">
+            <h3>Explore!</h3>
+            <p>Beautiful Cities</p>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <div class="box">
+        <img src="4.jpg" alt="">
+        <div class="content">
+            <h3>Snowy Mountains</h3>
+            <p>Chilly and Exhilarating</p>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <div class="box">
+        <img src="5.jpg" alt="">
+        <div class="content">
+            <h3>Vast Landscapes</h3>
+            <p>Hike to your hearts content</p>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <div class="box">
+        <img src="6.jpg" alt="">
+        <div class="content">
+            <h3>Beautiful Cities</h3>
+            <p>Explore with no restrictions</p>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <div class="box">
+        <img src="7.jpg" alt="">
+        <div class="content">
+            <h3>Experience the Grand Canyon</h3>
+            <p>Explore and be happy</p>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <div class="box">
+        <img src="8.jpg" alt="">
+        <div class="content">
+            <h3>Experience the Highlands</h3>
+            <p>Whale watch while at it</p>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <div class="box">
+        <img src="9.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Vacation Spots</h3>
+            <p>Your adventure begins here</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<!-- contact section -->
+<section class="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class="row">
+<div class="image">
+    <img src="Internet on the go-cuate.png" alt="">
+</div>
+<form action="">
+    <div class="inputBox">
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email">
+    </div>
+    <div class="inputBox">
+        <input type="number" placeholder="number">
+        <input type="text" placeholder="subject">
+        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" class="btn" value="send message">
+    </div>
+</form>
+
+    </div>
+
+</section>
+
+<!-- review section -->
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+<div class="swiper-container review-slider">
+<div class="swiper-wrapper">  
+
+<div class="slider">
+<div class="box">
+    <img src="WhatsApp Image 2024-02-28 at 1.00.58 PM.jpeg" alt="">
+    <h3> Ola Oguns</h3>
+    <p> OlaTours provides one of the most amazing packages ever! I has the best time on my trip.</p>
+    <div>
+        <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+    </div>
+</div>
+</div>
+
+<div class="swider-slide">
+<div class="box">
+    <img src="WhatsApp Image 2024-02-28 at 1.00.34 PM.jpeg" alt="">
+    <h3> Victoria</h3>
+    <p> My tour guide TOM was the best! he was so patient and kind. I loveddddd my trip</p>
+    <div>
+        <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+    </div>
+</div>
+</div>
+
+<div class="slider">
+<div class="box">
+    <img src="WhatsApp Image 2024-02-28 at 1.00.21 PM.jpeg" alt="">
+    <h3> Ola</h3>
+    <p> This was my first time out of Nigeria. The tour was well-organized, with many food stops. I loved it.</p>
+    <div>
+        <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- footer section -->
+<section class="footer">
+<div class="box-container">
+
+<div class="box">
+<h3>About us</h3>
+<p>At OlaTours, we understand that our customers want a seamless travel service, 
+    so we provide our customers with a one-stop booking portal for all vacation needs.</p>
+</div>
+
+<div class="box">
+    <h3>International Locations</h3>
+    <a href="">Tokyo</a>
+    <a href="">Nigeria</a>
+    <a href="">UK</a>
+    <a href="">Australia</a>
+    </div>
+
+    <div class="box">
+        <h3>quick links</h3>
+        <a href="">home</a>
+        <a href="">book</a>
+        <a href="">packages</a>
+        <a href="">services</a>
+        <a href="">gallery</a>
+        <a href="">review</a>
+        <a href="">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="">facebook</a>
+            <a href="">instagram</a>
+            <a href="">twitter</a>
+            <a href="">linkedin</a>
+            </div>
+</div>
+<h1 class="credit">Created by <span>OLA</span> | patronize me o |</h1>
+
+</section>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
